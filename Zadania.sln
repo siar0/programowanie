@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie12", "Zadanie12\Zadanie12.csproj", "{F5EA78CA-9A7D-42EC-8DEE-9396948FED1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1", "Zadanie12\Zadanie1.csproj", "{F5EA78CA-9A7D-42EC-8DEE-9396948FED1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie3", "Zadanie3\Zadanie3.csproj", "{D53F0141-56FA-4557-8CCA-1C266D3784BB}"
 EndProject

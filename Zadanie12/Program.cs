@@ -1,4 +1,4 @@
-namespace Zadanie12
+namespace Zadanie1
 {
     public class Program
     {

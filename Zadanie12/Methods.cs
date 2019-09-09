@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zadanie12
+namespace Zadanie1
 {
     public class Methods
     {
