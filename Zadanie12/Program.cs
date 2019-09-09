@@ -4,7 +4,7 @@ namespace Zadanie12
     {
         private static Methods _actions;
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             _actions = new Methods();
             _actions.WypiszDane();
