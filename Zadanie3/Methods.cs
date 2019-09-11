@@ -5,39 +5,39 @@ namespace Zadanie3
     public class Methods
     {
         private const double Pi = Math.PI;
-        private const float PromienKola1 = 10;
-        private const float PromienKola2 = 20;
-        private const float PromienKola3 = 50;
+        private const int FirstCircleRadius = 10;
+        private const int SecondCircleRadius = 20;
+        private const int ThirdCircleRadius = 50;
 
-        public void WypiszDane()
+        public void ShowUserData()
         {
-            Console.WriteLine("Promień koła nr 1 = " + PromienKola1 + "\n" +
-                              "Promień koła nr 2 = " + PromienKola2 + "\n" +
-                              "Promień koła nr 3 = " + PromienKola3 + "\n");
+            Console.WriteLine("Promień koła nr 1 = " + FirstCircleRadius + "\n" +
+                              "Promień koła nr 2 = " + SecondCircleRadius + "\n" +
+                              "Promień koła nr 3 = " + ThirdCircleRadius + "\n");
 
             Console.ReadKey();
         }
 
-        public void PokazWyliczenia()
+        public void ShowCalculations()
         {
-            Console.WriteLine("Koło 1: Obwód = " + ObliczObwod(PromienKola1) +
-                              " Pole = " + ObliczPole(PromienKola1));
+            Console.WriteLine("Koło 1: Obwód = " + CountCircumference(FirstCircleRadius) +
+                              " Pole = " + CountCircleArea(FirstCircleRadius));
 
-            Console.WriteLine("Koło 2: Obwód = " + ObliczObwod(PromienKola2) +
-                              " Pole = " + ObliczPole(PromienKola2));
+            Console.WriteLine("Koło 2: Obwód = " + CountCircumference(SecondCircleRadius) +
+                              " Pole = " + CountCircleArea(SecondCircleRadius));
 
-            Console.WriteLine("Koło 3: Obwód = " + ObliczObwod(PromienKola3) +
-                              " Pole = " + ObliczPole(PromienKola3));
+            Console.WriteLine("Koło 3: Obwód = " + CountCircumference(ThirdCircleRadius) +
+                              " Pole = " + CountCircleArea(ThirdCircleRadius));
         }
 
-        public double ObliczObwod(float promien)
+        public double CountCircumference(int radius)
         {
-            return 2 * Pi * promien;
+            return 2 * Pi * radius;
         }
 
-        public double ObliczPole(float promien)
+        public double CountCircleArea(int radius)
         {
-            return Pi * Math.Pow(promien, 2);
+            return Pi * Math.Pow(radius, 2);
         }
     }
 }

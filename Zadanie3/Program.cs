@@ -6,8 +6,8 @@ namespace Zadanie3
         {
             Methods _actions = new Methods();
 
-            _actions.WypiszDane();
-            _actions.PokazWyliczenia();
+            _actions.ShowUserData();
+            _actions.ShowCalculations();
         }
     }
 }

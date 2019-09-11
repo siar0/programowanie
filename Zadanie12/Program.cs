@@ -6,8 +6,8 @@ namespace Zadanie1
         {
             Methods _actions = new Methods();
 
-            _actions.PobierzDaneUzytkownika();
-            _actions.ZwrocDaneUzytkownika();
+            _actions.GetDataFromUser();
+            _actions.ShowUserData();
         }
     }
 }

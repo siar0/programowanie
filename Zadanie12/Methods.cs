@@ -4,27 +4,27 @@ namespace Zadanie1
 {
     public class Methods
     {
-        private string _imie, _nazwisko, _kierunek, _rocznik, _uczelnia, _data, _hobby;
+        private string _name, _lastname, _specialization, _year, _university, _date, _hobby;
 
-        public void PobierzDaneUzytkownika()
+        public void GetDataFromUser()
         {
             Console.WriteLine("Podaj imie: ");
-            _imie = Console.ReadLine();
+            _name = Console.ReadLine();
 
             Console.WriteLine("Podaj nazwisko: ");
-            _nazwisko = Console.ReadLine();
+            _lastname = Console.ReadLine();
 
             Console.WriteLine("Podaj kierunek studiow: ");
-            _kierunek = Console.ReadLine();
+            _specialization = Console.ReadLine();
 
             Console.WriteLine("Podaj rocznik studiow: ");
-            _rocznik = Console.ReadLine();
+            _year = Console.ReadLine();
 
             Console.WriteLine("Podaj nazwę uczelni: ");
-            _uczelnia = Console.ReadLine();
+            _university = Console.ReadLine();
 
             Console.WriteLine("Podaj dzisiejszą datę: ");
-            _data = Console.ReadLine();
+            _date = Console.ReadLine();
 
             Console.WriteLine("Jakie jest Twoje hobby?: ");
             _hobby = Console.ReadLine();
@@ -32,15 +32,15 @@ namespace Zadanie1
             Console.WriteLine(Environment.NewLine);
         }
 
-        public void ZwrocDaneUzytkownika()
+        public void ShowUserData()
         {
             Console.WriteLine("Dane, ktore podales to: " + "\n");
-            Console.WriteLine("Twoje imię: " + _imie + "\n"
-                              + "Twoje nazwisko: " + _nazwisko + "\n"
-                              + "Twój kierunek studiów: " + _kierunek + "\n"
-                              + "Twój rocznik: " + _rocznik + "\n"
-                              + "Twoja uczelnia: " + _uczelnia + "\n"
-                              + "Dzisiejsza data: " + _data + "\n"
+            Console.WriteLine("Twoje imię: " + _name + "\n"
+                              + "Twoje nazwisko: " + _lastname + "\n"
+                              + "Twój kierunek studiów: " + _specialization + "\n"
+                              + "Twój rocznik: " + _year + "\n"
+                              + "Twoja uczelnia: " + _university + "\n"
+                              + "Dzisiejsza data: " + _date + "\n"
                               + "Twoje hobby: " + _hobby);
 
             Console.ReadKey();
