@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5EA78CA-9A7D-42EC-8DEE-9396948FED1E}</ProjectGuid>
+    <ProjectGuid>{32CC30DD-B361-4B06-8CAC-78C813F00D37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadanie12</RootNamespace>
-    <AssemblyName>Zadanie12</AssemblyName>
+    <RootNamespace>Zadanie1</RootNamespace>
+    <AssemblyName>Zadanie1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Methods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDataModel.cs" />
+    <Compile Include="UserDataStorageService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

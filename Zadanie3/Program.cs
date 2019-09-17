@@ -4,10 +4,10 @@ namespace Zadanie3
     {
         private static void Main()
         {
-            Methods _actions = new Methods();
+            Methods actions = new Methods();
 
-            _actions.ShowUserData();
-            _actions.ShowCalculations();
+            actions.ShowUserData();
+            actions.ShowCalculations();
         }
     }
 }
