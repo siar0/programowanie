@@ -2,14 +2,12 @@ namespace Zadanie3
 {
     public class Program
     {
-        private static Methods _actions;
         private static void Main()
         {
-            _actions = new Methods();
+            Methods actions = new Methods();
 
-            _actions.GetUserData();
-            _actions.ReturnUserData();
-
+            actions.ShowUserData();
+            actions.ShowCalculations();
         }
     }
 }
