@@ -24,6 +24,7 @@ namespace Zadanie4
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Hasło poprawne, zostałeś zalogowany!");
                 Console.ResetColor();
+                Console.ReadKey();
             }
             else
             {
